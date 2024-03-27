@@ -54,7 +54,7 @@ class InfoGraph(nn.Module):
     l_enc = self.local_d(M)
 
     mode='fd'
-    measure='JSD'
+    measure='RKL'
     local_global_loss = local_global_loss_(l_enc, g_enc, edge_index, batch, measure)
  
     if self.prior:
