@@ -1,5 +1,5 @@
 '''Module for making resnet encoders.
-
+   - Does not get used in the final implementation.
 '''
 
 import torch
